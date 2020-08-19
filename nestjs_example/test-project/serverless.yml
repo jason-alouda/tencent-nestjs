@@ -1,0 +1,15 @@
+component: nestjs-test
+name: nestjs-test
+org: tencent
+app: nestjs-test
+stage: dev
+
+inputs:
+  src:
+    src: ./
+    hook: npm run complete
+  functionName: ${name}
+  runtime: Nodejs10.15
+  timeout: 100
+  description: deploys nestjs application on Serverless
+  region: ${env:REGION}

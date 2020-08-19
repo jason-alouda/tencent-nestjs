@@ -1,0 +1,8 @@
+name: nestjs-test # Required. The name of the Component
+version: 0.0.2 # Required. The version of the Component
+org: serverlessinc # Required. The Serverless Framework org which owns this Component
+description: Deploys Serverless Nest.js Apps # Optional. The description of the Component
+keywords: tencent, serverless, nestjs # Optional. The keywords of the Component to make it easier to find at registry.serverless.com
+license: MIT # Optional. The license of the Component code
+main: ./src
+webDeployable: true
